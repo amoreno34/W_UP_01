@@ -70,3 +70,5 @@ The average number of pushups done by line players is statistically different th
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The original question was this: Who can do the most pushups?
+The skill player vs the line player under a specified time frame were tested. With the provided data and after inputing everything into the results, the null hypothesis is rejected. Null hypothesis stated that there is no differnece. The p-value is less than 0.05 so the results show 95% confidence that the alternate hypothesis is correct. The line players do not do as many push ups as the skill players do.  
