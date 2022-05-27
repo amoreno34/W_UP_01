@@ -51,6 +51,11 @@ The dark lines in each shaded box represents the median value. The outer lines r
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+From the numerical results the Skilled position has higher values than the Line position. Skilled players appear to do more pushups from the values provided. 
 
 ## Inferential Results
 
