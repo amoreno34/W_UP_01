@@ -30,6 +30,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+Positions are categorical variable. Push-ups is a numerical variable. I will do an analysis that explains push-ups based on position.
+
 
 # Results
 
@@ -40,6 +42,11 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+The dark lines in each shaded box represents the median value. The outer lines represent the maximum an minimum amount. The shaded boxes show the majority. Pushups are on the y-axis. Position is in the x-axis. From the plot, there is a clear difference from the data given. It appears that the skilled players do more pushups.
 
 ### Numerical Descriptive Results
 
