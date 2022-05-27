@@ -60,7 +60,11 @@ From the numerical results the Skilled position has higher values than the Line 
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+t.test(pushups~position,data=mydata)
+```
 
+The average number of pushups done by line players is statistically different than that of skilled players. The null hypothesis is proven invalid as there is a clear difference between the amount of pushups a line player can do and a skill player can do. So the null hypotheses of there being no difference is incorrect. Mean value for skill is higher. P-value is 0.000009421. P-value is less than 0.05 so the null hypothesis is rejected. I am 95% confident that the Alternate hypothesis is correct.
 
 # Discussion and Conclusion
 
